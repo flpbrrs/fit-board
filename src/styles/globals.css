@@ -6,3 +6,9 @@ body {
     @apply bg-gray-100;
     @apply lg:min-h-screen;
 }
+
+@layer components {
+    .card {
+        @apply bg-white p-4 rounded-md shadow-lg;
+    }
+}
