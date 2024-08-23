@@ -14,7 +14,7 @@ export default function Page(props: PageProps) {
             lg:flex-row lg:gap-4 lg:p-4 lg:h-screen
         `}>
             <Header />
-            <div className="w-full overflow-auto">
+            <div className="w-full overflow-auto no-scrollbar">
                 {props.children}
             </div>
         </main>

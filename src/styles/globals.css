@@ -12,3 +12,13 @@ body {
         @apply bg-white p-4 rounded-md shadow-lg;
     }
 }
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+  }
+}
